@@ -1,0 +1,300 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: #f9fbfa;
+}
+
+.headerFoto {
+    position: relative;
+    background-color:#10A3FE;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 2px grey;
+}
+.nav {
+    background-color: #f9fbfa;
+    padding-top: 20px;
+}
+
+.nav a {
+    background-color: #EBF6FB;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.nav a:hover {
+    /* background-color: #ddd; */
+    color: white;
+    border-radius: 17px;
+    background-color: #10A3FE;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+    background-color: #10A3FE;
+    border-radius: 17px;
+    color: white;
+}
+.profile {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262A2E;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    padding-bottom: 25px;
+}
+.heart {
+    background-image: url("../image/heart.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 10px;
+}
+.info-tittle {
+    padding: 10px;
+    letter-spacing: 3px;
+    border: 2px solid #0a6299;
+    color: white;
+    background-color: #0a6299;
+    border-radius: 12px;
+    margin-top: -2px;
+}
+
+fieldset {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.header{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px
+}
+.header ul {
+    padding: 0;
+  }
+
+  .header ul li {
+    display: inline-block;
+    position: relative;
+  }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-repeat: repeat;
+}
+@media screen and (max-width: 600px) {
+
+    .header,
+    .footer {
+        text-align: center;
+    }
+
+    .left {
+        width: auto;
+        float: none;
+    }
+
+    .middle {
+        width: auto;
+        float: none;
+    }
+
+    .right {
+        width: auto;
+        float: none;
+    }
+
+}
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.profil {
+    position: relative;
+    width: 200px;
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: #00fffb;
+}
+
+.profil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+
+
+.main-content {
+    width: 100%;
+    height: 100%;
+}
+
+.mainstwo {
+    float: left;
+    width: 40%;
+    height: 120px;
+    padding: 5%;
+}
+
+.innerContent {
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+
+.outFooter{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+@media(min-width:321px) and (max-width:425px){
+    
+    .header{
+        background-color: white;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px
+    }
+    .nav {
+        background-color: #f9fbfa;
+        padding-top: 34px;
+        /* position: absolute; */
+        right: 0
+    }
+    .info-saya{
+    width: 90% !important;
+    height: 200px !important;
+    margin-top: 28px !important;
+    }
+    .abaout-saya {
+           width: 90% !important;
+           height: 200px !important;
+           margin-top: 2% !important;
+    }
+     .edu-saya {
+         width: 90% !important;
+         height: 200px !important;
+         margin-top: -20% !important;
+         
+
+        }
+    .expe-saya {
+    width: 90% !important;
+    height: 200px !important;
+    margin-top: -20% !important;
+    margin-bottom: 50%;
+
+
+    }
+
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+    }
+    .ifMobile{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: -5%;
+        border-radius: 10px;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #262A2E;
+        color: white;
+        text-align: center;
+        font-size: 33px;
+        padding-bottom: 25px;
+    }
+    .info-tittle {
+        padding: 10px;
+        letter-spacing: 3px;
+        border: 2px solid #10A3FE;
+        color: white;
+        background-color: #10A3FE;
+        border-radius: 12px;
+        margin-top: -2px;
+    }
+
+    .headerFoto {
+        position: relative;
+        background-color: #10A3FE;
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 7px 2px grey;
+    }
+
+    .welcome{
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+
+    .main-content {
+        width: 100%;
+        height: 80%;
+    }
+    .mainstwo {
+        width: 90%;
+        height: 100px;
+        margin-top: 30px;
+    }
+    #tambahan_edu{
+        height: 60px;
+    }
+
+    .innerContent {
+        border-bottom: 2px solid gray;
+        padding: 5px;
+    }
+
+   
+
+    .outFooter{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
