@@ -1,6 +1,6 @@
 function myFunction() {
     // console.log("text");
-    var x = document.getElementById("mainstwo");
+    var x = document.getElementsByClassName("mainstwo");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -9,10 +9,10 @@ function myFunction() {
 }
 function personal() {
     // console.log("text");
-    var x = document.getElementById("exp");
-    var y = document.getElementById("tambahan_edu");
-    // var x = document.getElementById("personal");
-    var z = document.getElementById("me");
+    var x = document.getElementsByClassName("exp");
+    var y = document.getElementsByClassName("tambahan_edu");
+    // var x = document.getElementsByClassName("personal");
+    var z = document.getElementsByClassName("me");
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "block";
@@ -26,10 +26,13 @@ function personal() {
 
 function All() {
     // console.log("text");
-    var x = document.getElementById("exp");
-    var y = document.getElementById("tambahan_edu");
-    var o = document.getElementById("personal");
-    var z = document.getElementById("me");
+    var x = document.getElementsByClassName("exp");
+    // console.log(x);
+    // return(false);
+
+    var y = document.getElementsByClassName("tambahan_edu");
+    var o = document.getElementsByClassName("personal");
+    var z = document.getElementsByClassName("me");
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "block";
@@ -44,10 +47,10 @@ function All() {
 }
 function me() {
     // console.log("text");
-    var x = document.getElementById("exp");
-    var y = document.getElementById("tambahan_edu");
-    var o = document.getElementById("personal");
-    // var z = document.getElementById("me");
+    var x = document.getElementsByClassName("exp");
+    var y = document.getElementsByClassName("tambahan_edu");
+    var o = document.getElementsByClassName("personal");
+    // var z = document.getElementsByClassName("me");
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "block";
@@ -62,10 +65,10 @@ function me() {
 }
 function Experience() {
     // console.log("text");
-    // var x = document.getElementById("exp");
-    var y = document.getElementById("tambahan_edu");
-    var o = document.getElementById("personal");
-    var z = document.getElementById("me");
+    // var x = document.getElementsByClassName("exp");
+    var y = document.getElementsByClassName("tambahan_edu");
+    var o = document.getElementsByClassName("personal");
+    var z = document.getElementsByClassName("me");
     if (y.style.display === "none") {
         // x.style.display = "block";
         y.style.display = "block";
